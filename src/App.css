@@ -1,33 +1,21 @@
-.App {
-  text-align: center;
-}
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  margin-top:1em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tab-top{
+  margin-left: 0;
 }
-
-.App-link {
-  color: #61dafb;
+.tab-pane{
+  min-height: 10em;
+  border:1.5px #ad9be2 solid;
+  border-radius: 0.25rem;
+  margin-top: 1em;
+  padding:1em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.badge {
+  background-color: #ad9be2;
+}
+.nav-link.active {
+  background-color: #ad9be2;
 }
